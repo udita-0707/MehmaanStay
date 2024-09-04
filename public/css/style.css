@@ -1,0 +1,116 @@
+body {
+    background-color: bisque;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: black;
+    font-size: 2rem;
+}
+.nav-link{
+    /* taaki humaari custom styling bootstrap ki styling ko override krr jaaye isliye hum likhte hai !important*/
+    color: black !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    color: black;
+    /* margin-left: 1rem; */
+}
+.f-info-links, .f-info-socials, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* Cards */
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+    color: black;
+
+}
+.card-text p{
+    font-weight:400;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+.listing-link:hover{
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* Show page */
+.show-image{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.del-btn{
+    background-color: rgb(245, 45, 45) !important;
+    color: white !important;
+    border: none;
+}
+
+.del-btn:hover{
+    background-color: brown !important;
+    color: white !important;
+    border: none;
+    text-decoration: none;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
